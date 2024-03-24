@@ -75,6 +75,7 @@ html {
     color: #1f2937;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 40px;
     padding: 0;
 }
 
@@ -102,6 +103,27 @@ html {
     text-align: center;
     margin: 0;
     color: #000;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    flex: 1;
+    margin: 0 150px;
+}
+
+.author {
+    text-align: right;
+    margin-right: 250px;
 }
 
 a,
