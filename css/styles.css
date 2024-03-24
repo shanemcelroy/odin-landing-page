@@ -155,6 +155,16 @@ html {
     border-radius: 10px;
 }
 
+.footer-container {
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+.footer-text p {
+    text-align: center;
+    color: #FFF;
+}
+
 a,
 p {
     text-decoration: none;
