@@ -9,7 +9,7 @@ html {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding-top: 20px;
     color: #FFF;
 }
 
@@ -26,6 +26,43 @@ html {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 100px;
+    background-color: #1F2937;
+    padding: 100px 0;
+}
+
+.left-section {
+    margin-left: 200px;
+}
+
+.right-section {
+    margin-right: 200px;
+}
+
+.title-image {
+    width: auto;
+    height: 250px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.sign-up {
+    padding: 10px 40px;
+    background-color: #3882F6;
+    color: #FFF;
+    border-radius: 10px;
+    border: none;
 }
 
 a,
