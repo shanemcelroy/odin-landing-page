@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.content-left {
+  flex: 1;
+}
+
+.content-right {
+  flex: 1;
+  display: flex;
+}
+
+.header {
+  margin-bottom: 80px;
+}
+
+.header-container {
+  background-color: #1f2937;
+  padding: 20px 200px 100px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.header-img {
+  margin-left: auto;
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  list-style: none;
+}
+
+.right-links {
+  display: flex;
+  margin-left: auto;
+  list-style: none;
+  gap: 40px;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.sign-up {
+  color: white;
+  font-weight: 700;
+  background-color: #3882f6;
+  padding: 8px 36px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
